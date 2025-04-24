@@ -1,0 +1,26 @@
+<suite name="Full_Test_Suite">
+    <listeners>
+        <listener class-name="Listensers.TestListeners"/>
+    </listeners>
+
+    <!-- Test: Login_Test_Cases -->
+    <test name="Login_Test_Cases">
+        <classes>
+            <class name="loginTest"/>
+        </classes>
+    </test>
+
+    <!-- Test: Booking_Test_Cases -->
+    <test name="Booking_Test_Cases">
+        <classes>
+            <class name="E2E_Booking"/>
+        </classes>
+    </test>
+
+    <!-- Test: HomePage_Test_Cases -->
+    <test name="HomePage_Test_Cases">
+        <classes>
+            <class name="homePage"/>
+        </classes>
+    </test>
+</suite>

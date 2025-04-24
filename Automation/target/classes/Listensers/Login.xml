@@ -1,0 +1,12 @@
+<suite name="Full_Test_Suite">
+    <listeners>
+        <listener class-name="Listensers.TestListeners"/>
+    </listeners>
+
+    <test name="Login_Test_Cases">
+        <classes>
+            <class name="Pages.LoginPage"/>
+        </classes>
+    </test>
+
+</suite>
